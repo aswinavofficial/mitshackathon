@@ -836,7 +836,7 @@ var THEMEIM = THEMEIM || {};
     gmap: function() {
       $('.gmap3-area,.gmap3-area.another').each(function() {
         var $this = $(this),
-          center = [40.8859901, -74.0640706];
+          center = [9.9639023, 76.4083849];
         $this.gmap3({
             center: center,
             zoom: 10,
@@ -1023,7 +1023,7 @@ var THEMEIM = THEMEIM || {};
 
         $this.gmap3()
           .marker([{
-              position: [40.8859901, -74.0640706],
+              position: [9.9639023, 76.4083849],
               icon: "media/images/icon/map-marker.png"
             },
             {

@@ -272,6 +272,7 @@ button:focus,
   ##  Typography
   --------------------------------------------------------------*/
 html {
+  scroll-behavior: smooth;
   font-size: 20px;
   font-family: "sf_pro";
   -webkit-font-smoothing: antialiased;
