@@ -12432,7 +12432,10 @@ input[type=date] {
 
 .vegas-overlay {
   opacity: 0.7;
-  background: #270569;
+  /* background: #270569; */
+  /* background: #020105; */
+  background-image: url("../../media/images/custom/Slider1.jpg")
+
 }
 
 .slider-text {
@@ -12451,10 +12454,15 @@ input[type=date] {
   margin-bottom: 20px;
 }
 
+.slider-text h1 span
+{
+  color: #D6005C;
+}
 .slider-text h6 span {
   font-size: 20px;
   font-weight: 500;
-  color: #00cc33;
+  /* color: #00cc33; */
+  color: #D6005C;
   letter-spacing: 2.5px;
 }
 
@@ -18325,7 +18333,7 @@ input[type=date] {
 /*--------------------------------------------------------------
   ## $color_four (color #00cc33);
   --------------------------------------------------------------*/
-.color_four, .banner-text-countdown .countdown-wrapper .countdown .CountdownContent:nth-child(2), .single-address-desc.usa a, .single-address-desc.usa i, .schedule-one .view-more a, .slider-text h1 span, .countdown-wrapper-two .countdown .CountdownContent:nth-child(4), .single-pricing.style-one h3, .single-filter-event .event-details p span, .offcanvas-box .half-grid > p, .section-link:hover:after, .header_two .buy a,
+.color_four, .banner-text-countdown .countdown-wrapper .countdown .CountdownContent:nth-child(2), .single-address-desc.usa a, .single-address-desc.usa i, .schedule-one .view-more a .countdown-wrapper-two .countdown .CountdownContent:nth-child(4), .single-pricing.style-one h3, .single-filter-event .event-details p span, .offcanvas-box .half-grid > p, .section-link:hover:after, .header_two .buy a,
 .map-location-box h4 i, .offcanvas-facilities-box p i,
 .page-bradcrumb ul li a:hover,
 .schedule-details-page .schedule-session .nav-tabs .nav-link.active {

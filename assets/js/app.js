@@ -2,12 +2,8 @@ var THEMEIM = THEMEIM || {};
 
 (function($) {
 
-  /*!----------------------------------------------
-      # This beautiful code written with heart
-      # by Sonia Shurmi <>
-      # In Dhaka, BD at the WD IT workstation.
-      ---------------------------------------------*/
-  // USE STRICT
+
+  
   "use strict";
 
   THEMEIM.initialize = {
