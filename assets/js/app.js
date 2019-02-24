@@ -59,11 +59,14 @@ var THEMEIM = THEMEIM || {};
 
 
       // Schedule tab details flip
+      $(".schedule-btn").parent().toggleClass('active');
+        $(".schedule-btn").toggleClass('active');
+    
 
-      $(".schedule-btn").on("click", function() {
-        $(this).parent().toggleClass('active');
-        $(this).toggleClass('active');
-      });
+      // $(".schedule-btn").on("click", function() {
+      //   $(this).parent().toggleClass('active');
+      //   $(this).toggleClass('active');
+      // });
 
 
       $(".program-schedule-all").mCustomScrollbar({
