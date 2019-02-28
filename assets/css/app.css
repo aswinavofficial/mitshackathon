@@ -9809,7 +9809,8 @@ input[type=date] {
 }
 
 .schedule-info {
-  background: #fff;
+  /* background: #fff; */
+  background: transparent;
   width: calc(100% - 180px);
   float: left;
   padding: 26px 40px;
@@ -9819,6 +9820,7 @@ input[type=date] {
 }
 
 .schedule-info h6 {
+  color: white;
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 12px;
@@ -9876,6 +9878,7 @@ input[type=date] {
 }
 
 .time-schedule-box {
+  color:white;
   float: left;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -9904,7 +9907,7 @@ input[type=date] {
 }
 
 .start-end-time b {
-  color: #000;
+  color:white;
 }
 
 .time-schedule-box .level b {
@@ -9944,10 +9947,15 @@ input[type=date] {
   left: 0;
   top: 0;
   position: absolute;
-  background: #270569;
+  /* background: #270569; */
+  /* background: transparent; */
+  
   opacity: .8;
   z-index: -1;
 }
+
+
+
 
 .nicescroll-cursors {
   border-color: #6633cc !important;
@@ -18147,7 +18155,7 @@ input[type=date] {
 /*--------------------------------------------------------------
   ## $title_1 (color #000000);
   --------------------------------------------------------------*/
-.title_1, .woocommerce-billing-step-done h4, .privacy_collection h3, .type_of_data h3, .schedule-info h6, .section-title.with-bg h2, .single-speaker .speaker-image .speakers-info .speakers-social ul li a:hover, .single-speaker .speakers-event-info, .single-staff .speaker-image .speakers-info .speakers-social ul li a, .package-details i, .package-price .price > span, .faq-accordion .btn-link.collapsed:hover, .faq-accordion .card-body, .default-form .forget-pass a, .event-list-filter .filter-by, .event-list-filter-btn li, .single-filter-event, .single-filter-event .event-link a:hover, .gallery-filter-btn li, .single-search-result .search-content h3, .blog-post-grid.format-link .entry-summary p,
+.title_1, .woocommerce-billing-step-done h4, .privacy_collection h3, .type_of_data h3, .section-title.with-bg h2, .single-speaker .speaker-image .speakers-info .speakers-social ul li a:hover, .single-speaker .speakers-event-info, .single-staff .speaker-image .speakers-info .speakers-social ul li a, .package-details i, .package-price .price > span, .faq-accordion .btn-link.collapsed:hover, .faq-accordion .card-body, .default-form .forget-pass a, .event-list-filter .filter-by, .event-list-filter-btn li, .single-filter-event, .single-filter-event .event-link a:hover, .gallery-filter-btn li, .single-search-result .search-content h3, .blog-post-grid.format-link .entry-summary p,
 .blog-post-grid.format-link .entry-summary a,
 .youtube-wrapper i,
 .post-btn-wish a.post_wish,
@@ -18269,7 +18277,7 @@ input[type=date] {
 /*--------------------------------------------------------------
   ## $color_two (color #cc3366);
   --------------------------------------------------------------*/
-.color_two, .main-menu .megamenu-image h6 a, .woocommerce-cart-form__contents td.product-remove, .single-address-desc.dubai a, .single-address-desc.dubai i, .topic-tab-button .nav-tabs .nav-item .nav-link.active, .time-schedule-box .start-end-time, .time-schedule-box .level, .schedule-social-icon ul li a, .schedule-two .view-more a, .countdown-wrapper-two .countdown .CountdownContent:nth-child(2), .about-boxed-slider .slick-dots li.slick-active button::before, .about-list ul li i, .staff-carousel .slick-dots li.slick-active button::before, .testimonial-slider-one .slick-dots li.slick-active button::before, .schedule-detail-inner.schedule-one-inner .schedule-date .nav-tabs .nav-link, .single-pricing.style-three h3, .faq-accordion .btn-link span, .faq-accordion .btn-link.collapsed:hover span, .venue-box ul li, .gallery-filter-btn li.active, .search-section p, .search-wrapper button, .page-numbers.next:hover,
+.color_two, .main-menu .megamenu-image h6 a, .woocommerce-cart-form__contents td.product-remove, .single-address-desc.dubai a, .single-address-desc.dubai i, .topic-tab-button .nav-tabs .nav-item .nav-link.active, .time-schedule-box .level, .schedule-social-icon ul li a, .schedule-two .view-more a, .countdown-wrapper-two .countdown .CountdownContent:nth-child(2), .about-boxed-slider .slick-dots li.slick-active button::before, .about-list ul li i, .staff-carousel .slick-dots li.slick-active button::before, .testimonial-slider-one .slick-dots li.slick-active button::before, .schedule-detail-inner.schedule-one-inner .schedule-date .nav-tabs .nav-link, .single-pricing.style-three h3, .faq-accordion .btn-link span, .faq-accordion .btn-link.collapsed:hover span, .venue-box ul li, .gallery-filter-btn li.active, .search-section p, .search-wrapper button, .page-numbers.next:hover,
 .page-numbers.prev:hover,
 .buy a,
 .widget.widget_recent_comments .comment-author-detail a span:hover,
