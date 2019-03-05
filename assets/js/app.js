@@ -776,7 +776,7 @@ var THEMEIM = THEMEIM || {};
         transition: 'fade',
         transitionDuration: 4000,
         delay: 10000,
-        color: 'red',
+       // color: 'red',
         animation: 'random',
         animationDuration: 20000 ,
         slides: [{src : ""}]
